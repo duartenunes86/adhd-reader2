@@ -139,7 +139,7 @@ const IndexContent = () => {
 					{getCollapseExpandBtn()}
 				</span>
 				<div className="flex flex-column">
-					<span>{!prefs || !tabSession ? 'Loading... or broken but probably loading' : 'JiffyReady to the moon'}</span>
+					<span>{!prefs || !tabSession ? 'Loading... or broken but probably loading' : 'ADHD reading to the moon'}</span>
 				</div>
 				<span>{JSON.stringify(tabSession)}</span>
 				<span>

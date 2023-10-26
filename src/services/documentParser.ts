@@ -26,7 +26,7 @@ function highlightText(sentenceText) {
 	return sentenceText.replace(/\p{L}+/gu, (word) => {
 		const { length } = word;
 
-		const brWordStemWidth = length > 3 ? Math.round(length * BR_WORD_STEM_PERCENTAGE) : length;
+		const brWordStemWidth =  Math.round(length/2) ;
 
 		const firstHalf = word.slice(0, brWordStemWidth);
 		const secondHalf = word.slice(brWordStemWidth);

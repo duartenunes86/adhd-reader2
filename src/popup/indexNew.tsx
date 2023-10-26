@@ -573,7 +573,7 @@ function Footer({ textColor = 'text-secondary', chrome }) {
 			<div className="footer-links-wrapper flex justify-between gap-3">
 				<div className="buy_me_a_coffee_container" style={{ width: '53px' }}>
 					<a
-						href="https://www.buymeacoffee.com/jiffyreader"
+						href="https://www.buymeacoffee.com/adhdreading"
 						target="_blank"
 						style={{ position: 'absolute', width: '53px', borderRadius: '0 15px 15px 0', overflow: 'hidden', zIndex: 5 }}>
 						<img

@@ -219,7 +219,7 @@ function IndexPopupOld() {
 					{chrome.i18n.getMessage('surveyPromptText')}
 				</a>
 
-				<a href="https://www.buymeacoffee.com/jiffyreader" target="_blank" className={animateFooterMessageVisibility(2)}>
+				<a href="https://www.buymeacoffee.com/adhdreading" target="_blank" className={animateFooterMessageVisibility(2)}>
 					<img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" className="buymeacoffee" />
 				</a>
 			</div>
